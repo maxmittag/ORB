@@ -1,0 +1,24 @@
+Ubuntu commands:
+IM HINTERGRUND STARTEN:
+_________________________
+nohup python main.py &
+tail -f nohup.out
+
+DATEIEN KLONEN:
+_________________________
+scp -i C:/Users/maxmi/Downloads/firstkey.pem C:/Users/maxmi/OneDrive/Dokumente/04_Projekte/Bots/ORB/getStocksInPlay.py ubuntu@13.62.57.22:/home/ubuntu/ORB/getStocksInPlay.py
+getStocksInPlay.py
+
+NORMAL AUSFÜHREN:
+_________________________
+python3.12 main.py
+
+VENV AKTIVIEREN:
+_________________________
+(vorher in ORB Ordner gehen)
+source venv/bin/activate
+
+
+DOWNLOAD:
+_________________________
+scp -i C:/Users/maxmi/Downloads/firstkey.pem ubuntu@51.20.109.225:/home/ubuntu/ORB_Alpaca/Stocklist_TEST_OUTPUT.csv C:/Users/maxmi/Downloads/
